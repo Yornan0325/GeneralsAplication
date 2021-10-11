@@ -1,4 +1,4 @@
-import './App.css';
+// import './App.css';
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import PrivateRoute from "./Access/RestrictedAccess/PrivateRoute";
 import SignIn from "./Access/SignIn/SignIn";
