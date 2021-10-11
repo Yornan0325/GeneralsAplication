@@ -2,9 +2,9 @@ import React from "react";
 import { Redirect } from "react-router";
 // import { Link } from "react-router-dom";
 import { Link } from "react-router-dom";
-import getFirebase from "../../FirebaseApp/FirebaseSettings";
-import useInput from "../../ElementsTools/useInput";
-import { useContext } from "../../ContextApp/UseContext";
+import getFirebase from "../../FirebaseConfigs/FirebaseConfigs";
+import useInput from "../useInput/useInput";
+import { useContext } from "../../Context/UseContext";
 import { useHistory } from "react-router-dom";
 
 const SignIn = () => {

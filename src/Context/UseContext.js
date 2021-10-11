@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import constate from "constate";
-import getFirebase from "../FirebaseApp/FirebaseSettings";
+import getFirebase from "../FirebaseConfigs/FirebaseConfigs";
 
 const useContextApp = () => {
   const [registeredUser, setRegisteredUser] = useState(null);
